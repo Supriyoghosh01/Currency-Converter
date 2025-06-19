@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #efffe3;
+    color: #163300;
+    background-size: cover;
+    object-fit: contain;
+}
+
+header {
+    height: 900px;
+    display: block;
+    padding: 30px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: unset;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
